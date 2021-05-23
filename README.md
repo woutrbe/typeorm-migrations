@@ -10,6 +10,8 @@ cd typeorm-migrations
 npm install
 ```
 
+Update your database configuration inside `ormconfig.ts`.
+
 ### Create a new migration
 
 `npm run create -- -n {Name of your migration}`
